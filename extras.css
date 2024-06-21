@@ -1,0 +1,8 @@
+*{  
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI'; 
+}
+*:hover{ 
+    border: 0px solid red; 
+}

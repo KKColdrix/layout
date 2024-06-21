@@ -1,0 +1,39 @@
+.article-container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 5% 40% 7% auto 3%;
+}
+
+.article-container #txt{
+    grid-column: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*acomodar los textos de la parte izquierda de la paginad*/
+}
+.article-container #img{
+    grid-column: 4;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 0.8em;
+}
+.article-container #img section:nth-child(1){
+    position: relative;
+    margin-top: -100px;
+}
+.article-container #img section:nth-child(2){
+    position: relative;
+    margin-top: -200px;
+}
+
+
+
+div{
+    width: 40vh;
+    height: 48vh;
+    border: 1px solid gray;
+    background-color: rgb(204, 204, 204);
+    margin-bottom: 0.8em;
+}
