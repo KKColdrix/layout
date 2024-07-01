@@ -48,11 +48,9 @@
     gap: 0.8em;
 }
 .article-container #container-img section:nth-child(1){
-    position: relative;
     margin-top: -100px;
 }
 .article-container #container-img section:nth-child(2){
-    position: relative;
     margin-top: -200px;
 }
 

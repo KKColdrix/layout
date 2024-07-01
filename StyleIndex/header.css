@@ -11,6 +11,7 @@ a:hover{ color: white; }
    v propongo que se queden juntos sin espacios como se ve a continuacion  
 */
 .header-container{
+    position: fixed;
     width: 100%;
     height: 8%;
     background-color: rgb(31, 31, 31);
