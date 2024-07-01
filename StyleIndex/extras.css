@@ -2,10 +2,9 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Segoe UI'; 
+    scrollbar-width: auto;
+    scrollbar-color: white rgb(31, 31, 31);
 }
 *:hover{ 
     border: 0px solid red; 
 }
-
-
-
