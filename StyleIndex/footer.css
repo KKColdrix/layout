@@ -3,10 +3,10 @@
     height: 29vh;
     background-color: rgb(31, 31, 31);
     display: grid;
-
     grid-template-columns: 1% auto 7% auto 7% auto 1%;
     grid-template-rows: 25% 3rem 1.5rem 1% auto 7% 15%;
 }
+
 .footer-container h2{
     border-top: 1px gray solid;
     color: white;
@@ -14,6 +14,12 @@
     align-content: center;
     grid-column: 1 / span 7;
     grid-row: 1 / span 2;
+}
+
+.footer-container .line{
+    grid-column: 2 / span 5;
+    grid-row: 5;
+    border-bottom: 1px solid white;
 }
 
 #footer-container-pt1{
@@ -24,6 +30,7 @@
     grid-column: 3 / span 3;
     grid-row: 3;
 }
+
 #footer-container-pt2{
     color: gray;
     font-size: small;
@@ -40,4 +47,7 @@
     flex-grow: 2;
 }
 
-
+.svg{
+    width: 12pt;
+    height: 12pt;
+}
