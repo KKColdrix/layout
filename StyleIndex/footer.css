@@ -48,8 +48,3 @@
 #footer-container-pt2 p:nth-child(1){
     flex-grow: 2;
 }
-
-.svg{
-    width: 12pt;
-    height: 12pt;
-}
