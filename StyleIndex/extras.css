@@ -7,15 +7,5 @@
     border: 0px solid red; 
 }
 
-div .box{
-    width: 40vh;
-    height: 48vh;
-    border: 0px solid gray;
-    background-color: rgb(204, 204, 204);
-    margin-bottom: 0.8em;
-}
 
-div .line{
-    height: 100%;
-    width: 100%;
-}
+
